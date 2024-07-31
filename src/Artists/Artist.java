@@ -15,6 +15,11 @@ public class Artist {
         this.nationality = nationality;
     }
 
+    public Artist(int id, String stage_name){
+        this.id = id;
+        this.stage_name = stage_name;
+    }
+
     public int getId() {
         return id;
     }

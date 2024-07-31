@@ -7,7 +7,7 @@ public class Solo extends Artist{
     private String last_name;
     private LocalDate birthdate;
 
-    public Solo(int id, String stage_name, LocalDate career_debut, String nationality, String first_name, String last_name, LocalDate birthdate) {
+    public Solo(int id, String stage_name, LocalDate career_debut, String nationality) {
         super(id, stage_name, career_debut, nationality);
         this.first_name = first_name;
         this.last_name = last_name;
