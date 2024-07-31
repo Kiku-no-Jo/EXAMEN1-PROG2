@@ -1,3 +1,7 @@
+package Users;
+
+import Songs.Song;
+
 import java.util.ArrayList;
 
 public class User {

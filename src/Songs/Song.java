@@ -1,3 +1,5 @@
+package Songs;
+
 import Artist.Artist;
 
 public class Song {
